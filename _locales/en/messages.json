@@ -1,0 +1,35 @@
+{
+  "extName": {
+    "message": "Web Shot — full page screenshot"
+  },
+  "extDescription": {
+    "message": "Captures the whole web page by scrolling it, saves the PNG to Downloads and copies it to the clipboard."
+  },
+  "actionTitle": {
+    "message": "Full page screenshot"
+  },
+  "statusDone": {
+    "message": "Screenshot saved and copied to the clipboard"
+  },
+  "statusError": {
+    "message": "Error: $ERROR$",
+    "placeholders": {
+      "error": { "content": "$1", "example": "Cannot access a chrome:// URL" }
+    }
+  },
+  "errNotCopied": {
+    "message": "file saved, but not copied to the clipboard ($REASON$)",
+    "placeholders": {
+      "reason": { "content": "$1", "example": "page is not focused" }
+    }
+  },
+  "errNoResponse": {
+    "message": "the page did not respond"
+  },
+  "errNotFocused": {
+    "message": "page is not focused"
+  },
+  "errTabSwitched": {
+    "message": "the tab was switched during capture"
+  }
+}

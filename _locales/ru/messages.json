@@ -1,0 +1,35 @@
+{
+  "extName": {
+    "message": "Web Shot — скриншот всей страницы"
+  },
+  "extDescription": {
+    "message": "Снимает всю веб-страницу с прокруткой, сохраняет PNG в «Загрузки» и копирует его в буфер обмена."
+  },
+  "actionTitle": {
+    "message": "Скриншот всей страницы"
+  },
+  "statusDone": {
+    "message": "Скриншот сохранён и скопирован в буфер обмена"
+  },
+  "statusError": {
+    "message": "Ошибка: $ERROR$",
+    "placeholders": {
+      "error": { "content": "$1", "example": "Cannot access a chrome:// URL" }
+    }
+  },
+  "errNotCopied": {
+    "message": "файл сохранён, но в буфер обмена не скопирован ($REASON$)",
+    "placeholders": {
+      "reason": { "content": "$1", "example": "страница не в фокусе" }
+    }
+  },
+  "errNoResponse": {
+    "message": "страница не ответила"
+  },
+  "errNotFocused": {
+    "message": "страница не в фокусе"
+  },
+  "errTabSwitched": {
+    "message": "во время съёмки была переключена вкладка"
+  }
+}

@@ -1,0 +1,11 @@
+# Local tool settings
+.claude/
+.vscode/
+.idea/
+
+# Release build output
+dist/
+
+# OS junk
+.DS_Store
+Thumbs.db
